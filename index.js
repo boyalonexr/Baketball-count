@@ -2,33 +2,27 @@ let homeScore = document.getElementById("home-score");
 let awayScore = document.getElementById("away-score")
 
 function homeAdd1() {
-    let text = 0 + 1;
-    homeScore.textContent = "0" + text;
+   homeScore.textContent = parseInt(homeScore.textContent) + 1;
 }
 
 function homeAdd2() {
-    let text = 0 + 2;
-    homeScore.textContent = "0" + text;
+    homeScore.textContent = parseInt(homeScore.textContent) + 2;
 }
 
 function homeAdd3() {
-    let text = 0 + 3;
-    homeScore.textContent = "0" + text;
+    homeScore.textContent = parseInt(homeScore.textContent) + 3;
 }
 
 function awayAdd1() {
-    let text = 0 + 1;
-    awayScore.textContent = "0" + text;
+    awayScore.textContent = parseInt(awayScore.textContent) + 1;
 }
 
 function awayAdd2() {
-    let text = 0 + 2;
-    awayScore.textContent = "0" + text;
+    awayScore.textContent = parseInt(awayScore.textContent) + 2;
 }
 
 function awayAdd3() {
-    let text = 0 + 3;
-    awayScore.textContent = "0" + text;
+    awayScore.textContent = parseInt(awayScore.textContent) + 3;
 }
 
 function reset() {
