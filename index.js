@@ -2,7 +2,7 @@ let homeScore = document.getElementById("home-score");
 let awayScore = document.getElementById("away-score")
 
 function homeAdd1() {
-   homeScore.textContent = parseInt(homeScore.textContent) + 1;
+   homeScore.textContent++;
 }
 
 function homeAdd2() {
@@ -14,7 +14,7 @@ function homeAdd3() {
 }
 
 function awayAdd1() {
-    awayScore.textContent = parseInt(awayScore.textContent) + 1;
+    awayScore.textContent++;
 }
 
 function awayAdd2() {
